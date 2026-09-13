@@ -1,0 +1,86 @@
+:root {
+  --color-bg: #f6f7f9;
+  --color-surface: #ffffff;
+  --color-surface-raised: #ffffff;
+  --color-border: #dde1e6;
+  --color-border-strong: #c3c9d1;
+  --color-text: #14171a;
+  --color-text-muted: #5b6270;
+  --color-text-faint: #8a909c;
+
+  --color-accent: #2f6fed;
+  --color-accent-hover: #2559c7;
+  --color-accent-contrast: #ffffff;
+
+  --color-danger: #d5372e;
+  --color-danger-hover: #b32d25;
+  --color-danger-contrast: #ffffff;
+
+  --color-warning-bg: #fff4e5;
+  --color-warning-border: #f0c274;
+  --color-warning-text: #7a4c00;
+
+  --color-error-bg: #fdecea;
+  --color-error-border: #f2b8b3;
+  --color-error-text: #8a231c;
+
+  --color-focus-ring: #2f6fed;
+  --color-selection-bg: #e6efff;
+  --color-selection-border: #2f6fed;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "SF Mono", "Cascadia Code", Consolas, monospace;
+
+  --shadow-sm: 0 1px 2px rgba(20, 23, 26, 0.08);
+  --shadow-md: 0 4px 16px rgba(20, 23, 26, 0.12);
+
+  --transition-fast: 120ms ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #14161a;
+    --color-surface: #1c1f24;
+    --color-surface-raised: #23262c;
+    --color-border: #33373f;
+    --color-border-strong: #454a54;
+    --color-text: #edeef0;
+    --color-text-muted: #a3a9b3;
+    --color-text-faint: #767c87;
+
+    --color-accent: #5b8ef9;
+    --color-accent-hover: #7ba3fb;
+    --color-accent-contrast: #0a1020;
+
+    --color-danger: #f2685f;
+    --color-danger-hover: #f58b83;
+    --color-danger-contrast: #0a1020;
+
+    --color-warning-bg: #3a2a0d;
+    --color-warning-border: #7a5a1e;
+    --color-warning-text: #f5c876;
+
+    --color-error-bg: #3a1613;
+    --color-error-border: #7a2f28;
+    --color-error-text: #f5a39c;
+
+    --color-focus-ring: #7ba3fb;
+    --color-selection-bg: #223252;
+    --color-selection-border: #5b8ef9;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+  }
+}
