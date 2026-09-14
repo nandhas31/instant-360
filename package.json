@@ -1,0 +1,15 @@
+{
+  "name": "instant-360",
+  "private": true,
+  "packageManager": "pnpm@11.23.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @instant-360/desktop dev",
+    "build": "pnpm --filter @instant-360/desktop build",
+    "typecheck": "pnpm --filter @instant-360/desktop typecheck",
+    "lint": "pnpm --filter @instant-360/desktop lint",
+    "test": "pnpm --filter @instant-360/desktop test"
+  }
+}

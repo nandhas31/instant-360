@@ -1,0 +1,60 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.popoverAnchor {
+  position: relative;
+  display: inline-flex;
+}
+
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-accent-contrast);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  object-fit: cover;
+}
+
+.email {
+  font-size: 0.8125rem;
+  color: var(--color-text);
+  max-width: 22ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.status {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.warningIcon {
+  color: var(--color-warning-text);
+  display: inline-flex;
+}
+
+.errorText {
+  font-size: 0.8125rem;
+  color: var(--color-error-text);
+}
+
+.confirmText {
+  margin: 0 0 var(--space-3);
+  font-size: 0.8125rem;
+  color: var(--color-text);
+}
+
+.confirmActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+}
